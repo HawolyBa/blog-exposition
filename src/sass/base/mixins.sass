@@ -1,0 +1,27 @@
+@mixin lineHeight($height, $va)
+  height: $height
+  line-height: $height
+  vertical-align: $va
+
+
+@mixin center-content($width)
+  width: $width
+  margin-left: auto
+  margin-right: auto
+
+
+@mixin liMenuH($mr, $p: 0)
+  display: inline
+  margin-right: $mr
+  padding: $p
+
+@mixin border-radius($radius)
+  -moz-border-radius: $radius
+  -webkit-border-radius: $radius
+  -ms-border-radius: $radius
+  border-radius: $radius
+
+@mixin font-size($size)
+  font-size: $size
+  font-size: calculateRem($size)
+    

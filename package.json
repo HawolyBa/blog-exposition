@@ -1,0 +1,29 @@
+{
+  "name": "blog-exposition",
+  "version": "1.0.0",
+  "description": "Blog d'exposition",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HawolyBa/blog-exposition.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HawolyBa/blog-exposition/issues"
+  },
+  "homepage": "https://github.com/HawolyBa/blog-exposition#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-gitignore": "^0.1.0",
+    "gulp-imagemin": "^4.0.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
